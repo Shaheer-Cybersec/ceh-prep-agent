@@ -32,7 +32,8 @@ git clone https://github.com/Shaheer-Cybersec/ceh-prep-agent.git
 cd ceh-prep-agent
 pip install -r requirements.txt
 cp .env.example .env        # then paste your free Groq key into .env
-python agent.py
+python agent.py        # CLI version
+streamlit run app.py   # web GUI version
 ```
 
 Get a free Groq API key at <https://console.groq.com/keys>.
